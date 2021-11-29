@@ -1,0 +1,8 @@
+今天复习java第一天，记录一下，给自己加个油，希望还能转回去，加油！加油！加油！
+
+新下载的jdk安装没有jre（jdk12之后有的新特性），需要自己在生成：
+
+运行上面生成JRE的命令的时候，C:\Program Files\Java\jdk-12.0.1>: 
+运行的命令为：bin\jlink.exe --module-path jmods --add-modules java.desktop --output jre，运行 的位置和路径一定要一致。
+在启动cmd命令行的时候最好使用管理员的身份运行。
+
